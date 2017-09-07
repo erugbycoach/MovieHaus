@@ -16,7 +16,7 @@ public class Movie implements Parcelable {
     private long voteAverage;
     private String overview;
     private int id;
-    public static String API_KEY = "406c50e1a9a1c2ea10515b48e299a1e9";
+    public static String API_KEY = "Your TMD Api";
 
     public Movie() {
         // Required Blank Constructor

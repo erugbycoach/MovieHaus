@@ -141,6 +141,10 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    /*Solution based on Udacity docuentation and the following post
+      * https://stackoverflow.com/questions/1560788/
+      * how-to-check-internet-access-on-android-inetaddress-never-times-out */
+    
     private boolean isNetworkAvailable() {
         ConnectivityManager manager = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
         NetworkInfo networkInfo = manager.getActiveNetworkInfo();
