@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Movie Madness</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Menu Strings -->
+    <string name="filter_popular">Sort By Popular</string>
+    <string name="filter_top_rated">Sort by Top Rated</string>
+    <string name="title_activity_detail">DetailActivity</string>
+
+    <!-- Content descriptions for accessibility -->
+    <string name="content_desc_movie_poster">Movie poster</string>
+    <string name="content_desc_backdrop_image">Movie backdrop image</string>
+
+    <!-- Details Screen Strings -->
+    <string name="vote_average">Vote average:</string>
+
+    <!-- Network availability string -->
+    <string name="network_unavailable">Network is unavailable</string>
+</resources>
